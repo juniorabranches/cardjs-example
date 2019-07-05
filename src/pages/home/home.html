@@ -1,0 +1,51 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Cartão de Crédito
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <div class="slds-card__body slds-card__body_inner">
+    <div class="demo-container slds-border_top slds-border_bottom">
+      <div class="card-wrapper"></div>
+      <div class="form-container">
+        <form class="slds-form slds-form_compound" card container=".card-wrapper">
+          <div class="slds-form-element__group">
+            <div class="slds-form-element__row">
+              <div class="slds-form-element">
+                <input type="text" name="number" placeholder="Número do Cartão" class="slds-input" card-number />
+              </div>
+            </div>
+            <div class="slds-form-element__row">
+              <div class=" slds-size_1-of-2">
+                <div class="slds-form-element">
+                  <input type="text" name="first-name" placeholder="Nome" class="slds-input" card-name />
+                </div>
+              </div>
+              <div class=" slds-size_1-of-2">
+                <div class="slds-form-element">
+                  <input type="text" name="last-name" placeholder="Sobrenome" class="slds-input" card-name />
+                </div>
+              </div>
+            </div>
+            <div class="slds-form-element__row">
+              <div class=" slds-size_1-of-2">
+                <div class="slds-form-element">
+                  <input type="text" name="expiry" placeholder="MM/YY" class="slds-input" card-expiry />
+                </div>
+              </div>
+              <div class=" slds-size_1-of-2">
+                <div class="slds-form-element">
+                  <input type="text" name="cvc" placeholder="CV" class="slds-input" card-cvc />
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</ion-content>

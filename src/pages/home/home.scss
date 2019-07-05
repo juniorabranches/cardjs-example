@@ -1,0 +1,36 @@
+
+  
+  .slds-card {
+    position: fixed;
+    padding: 0;
+    z-index: 10000;
+    border-radius: 0;
+    background: #fff;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .slds-card__body {
+    padding-left: 0;
+    padding-right: 0; 
+  }
+  
+  .demo-container {
+      background: #EEE;
+      position: relative;
+      padding: 30px;
+  }
+  
+  .form-container {
+      margin-top: 20px;
+      text-align: center;
+
+  }
+  
+  .slds-input:focus, .slds-input:active {
+    border-color: none;
+    background-color: none;
+    font-size: 16px;
+  }
+  

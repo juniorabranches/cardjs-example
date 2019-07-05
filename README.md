@@ -3,7 +3,7 @@ An example of usage library Card.js on Ionic app
 
 ## Telas / Screens: 
 
-![View this](src/assets/card1.png)
+![View this](src/assets/card1.PNG)
 
 # To run:
 * > npm install
